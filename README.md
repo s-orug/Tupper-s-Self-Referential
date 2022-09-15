@@ -1,1 +1,1 @@
-# Tupper's-Self-Referential
+# Tupper's Self Referential
