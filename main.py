@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-from tupper import *
 import numpy as np
 from pixel import Generator, Plotter, Tupper
 
 __author__ = 'Sai Durga Rithvik Oruganti'
-__date__ = 'July 14, 2022'
+__date__ = 'Oct 14, 2022'
 __email__ = 'orugants@email.sc.edu'
-__status__ = 'In Progress'
+__status__ = 'Completed'
 
 
 def flip(arr):
@@ -22,11 +21,13 @@ def flip(arr):
 def main():
     x_range = 106
     y_range = 17
-    s = Solver()
+
 
     k = Generator().main()
     count = 0
     b = np.array([[_ for _ in range(x_range)] for _ in range(y_range)])
+
+    print(f'{k:,}')
 
     for y in range(16, -1, -1):
         for x in range(0, 106):

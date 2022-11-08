@@ -42,7 +42,7 @@ class Generator:
 
     def n_to_decimal(self):
         self.decimal = int(self.n, 2) * 17
-        print(f'k = {self.decimal}')
+        #print(f'k = {self.decimal}')
         return self.decimal
 
     def main(self):
